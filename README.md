@@ -1,9 +1,9 @@
 
-# AstroidGame - Tutorial
+# AsteroidShooter - Tutorial
 
 ## Overview
 
-**AstroidGame** is a Flutter game built using the Flame engine. The game challenges players to control a spaceship, avoid enemies, and shoot to survive. As the game progresses, enemies spawn faster, and the gameplay becomes more challenging.
+**AsteroidShooter** is a Flutter game built using the Flame engine. The game challenges players to control a spaceship, avoid enemies, and shoot to survive. As the game progresses, enemies spawn faster, and the gameplay becomes more challenging.
 
 This tutorial walks you through the process of building **AstroidGame** step by step. By the end, you'll have a complete game that integrates shooting mechanics, dynamic enemy spawning, and animations.
 
