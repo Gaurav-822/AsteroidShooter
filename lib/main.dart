@@ -99,13 +99,18 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
                 const SizedBox(width: 24), // Space between the title and arrows
-                Text(
-                  _pageTitles[_currentPageIndex],
-                  style: const TextStyle(
-                    color: Colors.white54,
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
+                Flexible(
+                  child: Text(
+                    _pageTitles[_currentPageIndex],
+                    style: const TextStyle(
+                      color: Colors.white54,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      // alignment: MainAxisAlignment.
+                    ),
+                    textAlign: TextAlign.center,
                   ),
+
                 ),
                 const SizedBox(width: 24), // Space between the title and arrows
                 Padding(
